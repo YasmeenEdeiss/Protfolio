@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Yasmeen Edeiss - Front-End Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Yasmeen Edeiss, a passionate front-end developer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="dist/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <span class="logo__initials">Y</span>
+        <h1 class="logo__text">Yasmeen</h1>
+      </div>
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home">Home</a></li>
+          <li class="nav__item"><a href="#about">About</a></li>
+          <li class="nav__item"><a href="#projects">Projects</a></li>
+          <li class="nav__item"><a href="#skills">Skills</a></li>
+          <li class="nav__item nav__item--primary"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__background">
+        <div class="hero__ellipse hero__ellipse--1"></div>
+        <div class="hero__ellipse hero__ellipse--2"></div>
+      </div>
+      <div class="container">
+        <div class="hero__content">
+          <h2>Hello, I'm <br> Yasmeen Edeiss</h2>
+          <p>
+            I'm a university student driven by a passion for Front-End Development. 
+            I enjoy turning ideas into interactive web experiences and constantly explore new
+            tools and techniques to enhance my creativity and coding skills.
+          </p>
+          <a class="btn btn--primary" href="#contact">Hello!</a>
+        </div>
+        <div class="hero__image">
+          <img src="src/img/me.jpg" alt="Yasmeen Edeiss" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__image">
+          <img src="src/img/me.jpg" alt="Yasmeen Edeiss" loading="lazy">
+        </div>
+        <div class="about__content">
+          <h2>I am a front-end developer.</h2>
+          <p>
+            I design and develop modern, responsive websites with a strong focus on user experience and clean code.
+            As an ICT student with a passion for front-end development, I enjoy turning creative ideas into functional 
+            web projects using technologies like HTML, CSS, and JavaScript.
+          </p>
+          <div class="about__actions">
+            <a class="btn btn--primary" href="#projects">My Projects</a>
+            <a class="btn btn--outline" href="src/img/YasmeenEdeiss (2).pdf" download>
+              <i class="fas fa-download"></i> Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Projects</h2>
+          <p>Here are some of the projects I've worked on to practice and improve my front-end development skills.</p>
+        </div>
+        
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-card__image">
+              <img src="src/img/1732124830122.jpg" alt="Book Library Project" loading="lazy">
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__category">Front End</span>
+              <h3>Book Library Project</h3>
+              <p>
+                Designed an AI-driven platform for university students by integrating therapy tools and academic coaching.
+              </p>
+              <a class="btn btn--outline" href="https://github.com/YasmeenEdeiss" target="_blank">
+                Preview <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image">
+              <img src="src/img/hh.png" alt="Book Library Project" loading="lazy">
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__category">Front End</span>
+              <h3>Book Library Project</h3>
+              <p>
+                Designed an AI-driven platform for university students integrating therapy tools and academic coaching.
+              </p>
+              <a class="btn btn--outline" href="https://github.com/YasmeenEdeiss" target="_blank">
+                Preview <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image">
+              <img src="src/img/1732124830940.jpg" alt="Book Library Project" loading="lazy">
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__category">Front End</span>
+              <h3>Book Library Project</h3>
+              <p>
+                Designed an AI-driven platform for university students integrating therapy tools and academic coaching.
+              </p>
+              <a class="btn btn--outline" href="https://github.com/YasmeenEdeiss" target="_blank">
+                Preview <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Skills</h2>
+          <p>My programming skills</p>
+        </div>
+        
+        <div class="skills-grid">
+          <div class="skill-item">
+            <p>HTML5</p>
+          </div>
+          <div class="skill-item">
+            <p>CSS3</p>
+          </div>
+          <div class="skill-item">
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-item">
+            <p>Responsive Design</p>
+          </div>
+          <div class="skill-item">
+            <p>Bootstrap</p>
+          </div>
+          <div class="skill-item">
+            <p>React</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact__info">
+          <h3>Let's discuss your Project</h3>
+          
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="contact-method__icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-method__details">
+                <span>Address:</span>
+                <p>Palestine</p>
+              </div>
+            </div>
+            
+            <div class="contact-method">
+              <div class="contact-method__icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-method__details">
+                <span>My Email:</span>
+                <p>yasmeenediess@gmail.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-method">
+              <div class="contact-method__icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-method__details">
+                <span>Call Me Now:</span>
+                <p>+970568884567</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <a href="https://github.com/YasmeenEdeiss" target="_blank" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yasmeenedeiss/" target="_blank" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="contact__form">
+          <form>
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Name*" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Email*" required>
+            </div>
+            <div class="form-group">
+              <input type="text" name="location" placeholder="Location">
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" name="budget" placeholder="Budget*" required>
+              </div>
+              <div class="form-group">
+                <input type="text" name="subject" placeholder="Subject*" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Message*" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">
+              Submit <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="logo">
+          <span class="logo__initials">Y</span>
+          <h1 class="logo__text">Yasmeen</h1>
+        </div>
+        
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <p class="footer__copyright">Copyright &copy; 2025 Yasmeen Edeiss. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="src/js/main.js"></script>
+</body>
+</html>
